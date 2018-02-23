@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.dialogs;
+package com.toxyc.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

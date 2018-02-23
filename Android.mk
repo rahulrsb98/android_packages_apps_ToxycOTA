@@ -2,11 +2,11 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 ifneq ($(ANDROID_BUILD_TOP),)
-    $(shell cp -u $(ANDROID_BUILD_TOP)/vendor/nitrogen/ota/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
+    $(shell cp -u $(ANDROID_BUILD_TOP)/vendor/toxyc/ota/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
 endif
 
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := NitrogenOTA
+LOCAL_PACKAGE_NAME := ToxycOTA
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := false

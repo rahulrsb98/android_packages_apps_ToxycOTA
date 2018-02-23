@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.tasks;
+package com.toxyc.ota.tasks;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.os.AsyncTask;
 
-import com.nitrogen.ota.tasks.CheckUpdateTask;
-import com.nitrogen.ota.utils.OTAUtils;
+import com.toxyc.ota.tasks.CheckUpdateTask;
+import com.toxyc.ota.utils.OTAUtils;
 
 public class OTAService extends JobService {
 

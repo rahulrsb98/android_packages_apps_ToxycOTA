@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Aktualizacje Nitrogen OS</string>
-    <string name="app_title">Aktualizacje Nitrogen OS</string>
+    <string name="app_name">Aktualizacje ToxycOS</string>
+    <string name="app_title">Aktualizacje ToxycOS</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -48,10 +48,10 @@
     <string name="autoupdate_disabled">Automatyczna aktualizacja jest wyłączona</string>
 
     <!-- Notification -->
-    <string name="notification_title">Aktualizacja Nitrogen OS</string>
+    <string name="notification_title">Aktualizacja ToxycOS</string>
     <string name="notification_message">Nowa wersja jest dostępna!</string>
-    <string name="nitrogen_channel">Powiadomienia NitrogenOTA</string>
-    <string name="nitrogen_channel_description">Powiadomienia o nowych aktualizacjach Nitrogen OS</string>
+    <string name="toxyc_channel">Powiadomienia ToxycOTA</string>
+    <string name="toxyc_channel_description">Powiadomienia o nowych aktualizacjach ToxycOS</string>
 
     <!-- Dialog -->
     <string name="dialog_message">Sprawdzanie aktualizacji ROMu, proszę czekać…</string>
@@ -61,7 +61,7 @@
 
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">Pobierz wydanie Nitrogen OS</string>
+    <string name="links_rom_summary">Pobierz wydanie ToxycOS</string>
     <string name="links_changelog_title">Lista zmian</string>
     <string name="links_changelog_summary">Pobierz nowy plik listy zmian</string>
     <string name="links_donation_title">Dotacja</string>

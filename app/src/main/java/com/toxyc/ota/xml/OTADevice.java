@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.xml;
+package com.toxyc.ota.xml;
 
 import java.util.ArrayList;
 import java.util.List;

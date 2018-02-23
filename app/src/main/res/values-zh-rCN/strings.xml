@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Nitrogen OS 更新</string>
-    <string name="app_title">Nitrogen OS 更新</string>
+    <string name="app_name">ToxycOS 更新</string>
+    <string name="app_title">ToxycOS 更新</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -48,10 +48,10 @@
     <string name="autoupdate_disabled">自动更新已禁用</string>
 
     <!-- Notification -->
-    <string name="notification_title">Nitrogen OS 更新</string>
+    <string name="notification_title">ToxycOS 更新</string>
     <string name="notification_message">有新版本可用！</string>
-    <string name="nitrogen_channel">Nitrogen OTA 通知</string>
-    <string name="nitrogen_channel_description">有 Nitrogen OS 更新时的通知</string>
+    <string name="toxyc_channel">ToxycOTA 通知</string>
+    <string name="toxyc_channel_description">有 ToxycOS 更新时的通知</string>
 
     <!-- Dialog -->
     <string name="dialog_message">正在检查系统更新，请稍候…</string>
@@ -61,7 +61,7 @@
 
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">下载 Nitrogen OS 编译</string>
+    <string name="links_rom_summary">下载 ToxycOS 编译</string>
     <string name="links_changelog_title">更新日志</string>
     <string name="links_changelog_summary">下载新的更新日志</string>
     <string name="links_donation_title">捐赠</string>

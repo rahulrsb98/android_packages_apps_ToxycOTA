@@ -38,6 +38,8 @@ Credits
 -------
 * [Slim team](http://slimroms.net/)
   * For the original idea of the SlimCenter and app icon
+* [NitrogenOS Team](http://github.com/nitrogen-project)
+  * For the code updates and all their work!
 
 Screenshots
 -----------

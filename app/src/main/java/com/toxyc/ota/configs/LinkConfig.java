@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.configs;
+package com.toxyc.ota.configs;
 
 import android.content.Context;
 
-import com.nitrogen.ota.xml.OTALink;
-import com.nitrogen.ota.xml.OTAParser;
-import com.nitrogen.ota.utils.OTAUtils;
+import com.toxyc.ota.xml.OTALink;
+import com.toxyc.ota.xml.OTAParser;
+import com.toxyc.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

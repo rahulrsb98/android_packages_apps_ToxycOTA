@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.tasks;
+package com.toxyc.ota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -30,16 +30,16 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.NotificationCompat;
 
-import com.nitrogen.ota.MainActivity;
-import com.nitrogen.ota.R;
-import com.nitrogen.ota.configs.AppConfig;
-import com.nitrogen.ota.configs.LinkConfig;
-import com.nitrogen.ota.configs.OTAConfig;
-import com.nitrogen.ota.configs.OTAVersion;
-import com.nitrogen.ota.dialogs.WaitDialogHandler;
-import com.nitrogen.ota.utils.OTAUtils;
-import com.nitrogen.ota.xml.OTADevice;
-import com.nitrogen.ota.xml.OTAParser;
+import com.toxyc.ota.MainActivity;
+import com.toxyc.ota.R;
+import com.toxyc.ota.configs.AppConfig;
+import com.toxyc.ota.configs.LinkConfig;
+import com.toxyc.ota.configs.OTAConfig;
+import com.toxyc.ota.configs.OTAVersion;
+import com.toxyc.ota.dialogs.WaitDialogHandler;
+import com.toxyc.ota.utils.OTAUtils;
+import com.toxyc.ota.xml.OTADevice;
+import com.toxyc.ota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -158,16 +158,16 @@ public class CheckUpdateTask extends AsyncTask<Context, Void, OTADevice> {
             NotificationManager notificationManager =
                     (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             int notifyID = 1;
-            String id = "nitrogenota_channel";
-            CharSequence name = context.getString(R.string.nitrogen_channel);
-            String description = context.getString(R.string.nitrogen_channel_description);
+            String id = "toxycota_channel";
+            CharSequence name = context.getString(R.string.toxyc_channel);
+            String description = context.getString(R.string.toxyc_channel_description);
             int importance = NotificationManager.IMPORTANCE_LOW;
             NotificationChannel mChannel = new NotificationChannel(id, name, importance);
             mChannel.setDescription(description);
             notificationManager.createNotificationChannel(mChannel);
 
             NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext())
-                    .setSmallIcon(R.drawable.ic_notification_nitrogen)
+                    .setSmallIcon(R.drawable.ic_notification_toxyc)
                     .setContentTitle(context.getString(R.string.notification_title))
                     .setContentText(context.getString(R.string.notification_message))
                     .setOnlyAlertOnce(true)

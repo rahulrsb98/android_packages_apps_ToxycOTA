@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.configs;
+package com.toxyc.ota.configs;
 
 import android.app.AlarmManager;
 import android.app.job.JobInfo;
@@ -24,9 +24,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.nitrogen.ota.R;
-import com.nitrogen.ota.tasks.OTAService;
-import com.nitrogen.ota.utils.OTAUtils;
+import com.toxyc.ota.R;
+import com.toxyc.ota.tasks.OTAService;
+import com.toxyc.ota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

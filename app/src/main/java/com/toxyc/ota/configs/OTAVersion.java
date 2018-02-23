@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.configs;
+package com.toxyc.ota.configs;
 
 import android.content.Context;
 
-import com.nitrogen.ota.utils.OTAUtils;
+import com.toxyc.ota.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota;
+package com.toxyc.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.nitrogen.ota.configs.LinkConfig;
-import com.nitrogen.ota.dialogs.WaitDialogFragment;
-import com.nitrogen.ota.fragments.NitrogenOTAFragment;
+import com.toxyc.ota.configs.LinkConfig;
+import com.toxyc.ota.dialogs.WaitDialogFragment;
+import com.toxyc.ota.fragments.ToxycOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = NitrogenOTAFragment.class.getName();
-    private NitrogenOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = ToxycOTAFragment.class.getName();
+    private ToxycOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (NitrogenOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (ToxycOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new NitrogenOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new ToxycOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 
