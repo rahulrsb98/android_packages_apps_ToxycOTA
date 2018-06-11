@@ -63,7 +63,7 @@
     <string name="links_rom_title">ROM</string>
     <string name="links_rom_summary">Faça o download da última versão do seu dispositivo</string>
     <string name="links_changelog_title">Changelog</string>
-    <string name="links_changelog_summary">Veja os novos bugs que adicionamos</string>
+    <string name="links_changelog_summary">Veja todas novidades que adicionamos</string>
     <string name="links_donation_title">Doação</string>
     <string name="links_donation_summary">Ganhar dinheiro para consertar o VoLTE</string>
 
