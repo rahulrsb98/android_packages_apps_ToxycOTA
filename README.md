@@ -1,7 +1,7 @@
 SlimOTA
 -------
 A very simple OTA checker with Android Settings look and feel.
-
+ 
 How it works
 ------------
 It parses the OTA xml file that you put in your file hosting and compares the version number with the local one.
