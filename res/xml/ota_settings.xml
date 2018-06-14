@@ -19,6 +19,11 @@
     android:title="@string/ota_toxyc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceScreen
+        android:key="toxyc_header"
+        android:enabled="false"
+        android:layout="@layout/about_toxyc_header_ota" />
+
     <PreferenceCategory
         android:title="@string/ota_category">
 
